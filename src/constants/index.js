@@ -1,4 +1,4 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { meta, shopify, starbucks, tesla, bstar } from "../assets/images";
 import {
     car,
     contact,
@@ -23,7 +23,9 @@ import {
     summiz,
     tailwindcss,
     threads,
-    typescript
+    typescript,
+    track,
+    camera
 } from "../assets/icons";
 
 export const skills = [
@@ -111,55 +113,30 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Frontend Developer",
+        company_name: "BStar Solutions",
+        icon: bstar,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "Jun 2022 – Jul 2022",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Using React.js to develop and maintain web applications.",
+            "Responsible for displaying a list of complaints and users.",
+            "Implementation of filter and pagination functionalities.",
+            "Integration of an export-to-Excel function.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+        title: "Backend Developer",
+        company_name: "BStar Solutions",
+        icon: bstar,
         iconBg: "#fbc3bc",
-        date: "Jan 2021 - Feb 2022",
+        date: "Aug 2022 – Feb 2023",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#b7e4c7",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#a2d2ff",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Developed APIs related to editing user information using Nest.js.",
+            "Implemented authentication APIs for user management.",
+            "Created permission-related APIs using Nest.js with a microservices architecture.",
+            "Transferred the Nest.js microservices to Java for collaboration with another team within the project.",
+            "Implemented an API for editing user information that requires OTP (One-Time Password) for added security.",
         ],
     },
 ];
@@ -173,7 +150,7 @@ export const socialLinks = [
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/long-zest',
     },
     {
         name: 'LinkedIn',
@@ -186,43 +163,43 @@ export const projects = [
     {
         iconUrl: pricewise,
         theme: 'btn-back-red',
-        name: 'Amazon Price Tracker',
-        description: 'Developed a web application that tracks and notifies users of price changes for products on Amazon, helping users find the best deals.',
-        link: 'https://github.com/adrianhajdin/pricewise',
+        name: 'E-commerce website full-stack',
+        description: ' With this website, I have done all functions such as authentication, authorization, ordering, shopping cart, commenting, product and order management on both frontend and backend.',
+        link: 'https://github.com/long-zest',
     },
     {
-        iconUrl: threads,
+        iconUrl: camera,
         theme: 'btn-back-green',
-        name: 'Full Stack Threads Clone',
-        description: 'Created a full-stack replica of the popular discussion platform "Threads," enabling users to post and engage in threaded conversations.',
-        link: 'https://github.com/adrianhajdin/threads',
+        name: 'Full Stack Website for sharing videos and images',
+        description: 'With this project, I have done all the functions such as authentication, authorization, required functions, video and image management, scoring system for posted content, tier system for people to apply, exchange points into a function of the system, the function of contacting the admin, in addition, the project also integrates an algorithm to suggest content for users through the scoring system.',
+        link: 'https://github.com/long-zest',
     },
     {
-        iconUrl: car,
+        iconUrl: track,
         theme: 'btn-back-blue',
-        name: 'Car Finding App',
-        description: 'Designed and built a mobile app for finding and comparing cars on the market, streamlining the car-buying process.',
-        link: 'https://github.com/adrianhajdin/project_next13_car_showcase',
+        name: 'Covid-tracker Api',
+        description: 'Combine chartjs and get api from disease.sh tracking people get covid and people cured and show it on one map.',
+        link: 'https://github.com/long-zest',
     },
     {
         iconUrl: snapgram,
         theme: 'btn-back-pink',
-        name: 'Full Stack Instagram Clone',
-        description: 'Built a complete clone of Instagram, allowing users to share photos and connect with friends in a familiar social media environment.',
-        link: 'https://github.com/adrianhajdin/social_media_app',
+        name: 'Range Bound API',
+        description: ' In this project we need to provide upperbound, lowerbound, and then the value that we want to check, then the system will check whether that element is in the range we provide or not. Projects have several types of ranges and it can also check different types of values like a number, string, date, and decimal number.',
+        link: 'https://github.com/long-zest',
     },
     {
         iconUrl: estate,
         theme: 'btn-back-black',
-        name: 'Real-Estate Application',
-        description: 'Developed a web application for real estate listings, facilitating property searches and connecting buyers with sellers.',
-        link: 'https://github.com/adrianhajdin/projects_realestate',
+        name: 'Nextjs Portfolio app',
+        description: 'This portfolio project serves dual purposes: showcasing my skills and serving as a learning platform. Utilizing Next.js and Chakra UI for the foundational UI components, the app seamlessly integrates advanced 3D animations powered by Three.js and React Three Fiber.',
+        link: 'https://github.com/long-zest',
     },
     {
         iconUrl: summiz,
         theme: 'btn-back-yellow',
-        name: 'AI Summarizer Application',
-        description: 'App that leverages AI to automatically generate concise & informative summaries from lengthy text content, or blogs.',
-        link: 'https://github.com/adrianhajdin/project_ai_summarizer',
+        name: 'Memories app',
+        description: 'Just a basic project used to store memories, it is like a note app but it can upload images, using Reactjs for frontend and Nodejs for backend with database Mongodb have Aws for upload images.',
+        link: 'https://github.com/long-zest',
     }
 ];

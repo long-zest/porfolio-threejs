@@ -8,11 +8,11 @@ import Plane from '../models/Plane'
 import { useState, useEffect, useRef } from 'react'
 import HomeInfo from '../components/HomeInfo'
 
-import sakura from "../assets/sakura.mp3"
+import yoasobi from "../assets/yoasobi.mp3"
 import { soundoff, soundon } from '../assets/icons'
 
 const Home = () => {
-    const audioRef = useRef(new Audio(sakura))
+    const audioRef = useRef(new Audio(yoasobi))
     audioRef.current.volume = 0.4
     audioRef.current.loop = true
     const [isRotating, setIsRotating] = useState(false)
